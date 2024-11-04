@@ -1,0 +1,18 @@
+html {
+    background-color: darkslategrey;
+    color: white;
+}
+button {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: black;
+    color: white;
+}
+div {
+    white-space: nowrap;
+    display: inline;
+}
+button:hover {
+    background-color: red;
+}

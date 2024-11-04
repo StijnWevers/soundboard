@@ -10,14 +10,27 @@
     </head>
     <h1>Soundboard</h1>
     <body>
-        <button id="batman" onclick="document.getElementById('batman').play();">batman</button>
-        
-        <button id="superman">superman</button>
+        <div>
+            <button onclick="document.getElementById('batman').play();">Batman</button>
+            <audio id="batman" src="batman-transition-download-sound-link.mp3"></audio>
 
+            <button onclick="document.getElementById('superman').play();">Superman</button>
+            <audio id="superman" src="superman.mp3" preload="auto"></audio>
 
-        <audio id="batman" src="batman-transition-download-sound-link.mp3" preload="auto"></audio>
-        <audio id="supermanAudio" src="superman.mp3" preload="auto"></audio>
+            <button onclick="document.getElementById('micheal').play();">Micheal Myers</button>
+            <audio id="micheal" src="dbd-ost-michael-myers-sounds-mal-interieur-2.mp3" preload="auto"></audio>
+
+            <button onclick="document.getElementById('sonic').play();">Sonic</button>
+            <audio id="sonic" src="26f8b9_sonic_ring_sound_effect.mp3" preload="auto"></audio>
+
+            <button onclick="document.getElementById('naruto').play();">Naruto</button>
+            <audio id="naruto" src="naruto-sad-music-instant.mp3" preload="auto"></audio>
+
+            <button onclick="document.getElementById('doomfist').play();">Doomfist</button>
+            <audio id="doomfist" src="and-they-say.mp3" preload="auto"></audio>
+        </div>
         
+
         
     </body>
 </html>
